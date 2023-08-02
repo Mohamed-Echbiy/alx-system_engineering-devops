@@ -1,6 +1,2 @@
-#!/bin/bash
-echo "Changing to root directory..." 
-cd / 
-echo "Changing to home directory..." 
-cd /home 
-echo "Script execution complete."
+#!/bin/bash 
+cd /home
