@@ -1,2 +1,2 @@
 #!/bin/bash
-chown $( [ "$current_owner" = "guillaume" ] && echo "betty" || echo "$current_owner" ) hello
+chown -R --from=john harry .
